@@ -1,8 +1,9 @@
-#include <gpio.h>
+#include <gpio_lib.h>
 #include <sys/mman.h> //mmap
 #include <err.h>      //error handling
 #include <fcntl.h>    //file ops
 #include <unistd.h>   //usleep
+#include <stdio.h>
 
 // Static base
 static unsigned GPIO_BASE = 0x3f200000;
@@ -155,13 +156,35 @@ void getGpioMode(unsigned int gpioN) {
         // Prints the current Mode (input, output or any other function)
         printf("GPIO pin %d function is set to %u\n", gpioN, functionBits);
     }
-    
 }
 
-// Writes to GPIO N
-void gpioWrite(unsigned char bit) {
-    if (bit)
-        *gpset0 = 0x4; // sets bit
-    else
-        *gpclr0 = 0x4; // clears bit
+// Writes to GPIO N ( N = Position starting from 0)
+void gpioWrite(unsigned char bit, unsigned int gpioN) {
+
+    int valid = 0;
+
+    // If it is a valid GPIO
+    for (int i = 0; i < sizeof(GPIOS); i++) {
+        
+        if (gpioN == GPIOS[i]) {
+
+            // Was found
+            valid = 1;
+            break;
+        }
+    }
+
+    // Valid GPIO
+    if (valid) {
+        // Position
+        unsigned int bitmask = 1 << gpioN;
+
+        if (bit){
+
+            // sets bit to 1
+            *gpset0 = bitmask; 
+        }
+        // Clears value -> sets bit to 0
+        else {*gpclr0 = bitmask;}
+    } 
 }

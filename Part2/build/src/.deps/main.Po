@@ -1,0 +1,76 @@
+main.o: ../../src/main.c \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/stdc-predef.h \
+ ../../include/gpio_lib.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/unistd.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/features.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/sys/cdefs.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/wordsize.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/wordsize-32.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/long-double.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/long-double-32.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs-32.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/posix_opt.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/environments.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/timesize.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/typesizes.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/typesizes-32.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/time64.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/9.3.0/include/stddef.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/confname.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/getopt_posix.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/getopt_core.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/unistd.h \
+ /home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/unistd_ext.h
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/stdc-predef.h:
+
+../../include/gpio_lib.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/unistd.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/features.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/wordsize-32.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/long-double.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/long-double-32.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs-32.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs-hard.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/posix_opt.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/environments.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/timesize.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/typesizes-32.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/time64.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/9.3.0/include/stddef.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/confname.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/getopt_posix.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/getopt_core.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/unistd.h:
+
+/home/zeik/Documents/Yocto/poky-dunfell-23.0.21/rpi3/dev-sdk/sysroots/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/unistd_ext.h:
